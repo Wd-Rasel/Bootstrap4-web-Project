@@ -1,0 +1,98 @@
+ /* ===================================Common css here ================================*/
+*,html,body {
+    margin: 0; padding: 0; box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+}
+*::after,*::before {
+    box-sizing: inherit;
+}
+
+h1,h3,h4,h5,h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ===========================google fonts import here============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&family=Source+Serif+Pro:wght@300&display=swap');
+
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+
+
+.bg-slide-img{
+    width: 1200px;
+    height: 550px;
+}
+
+.carousel-caption {
+    bottom: 180px;
+  }
+
+.heading-part {
+    margin-top: 15rem;
+}
+.heading-part h2{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: .5rem .5rem .5rem  #222;
+    
+}
+/* =============== gellary design ========== */
+.hover-scale{
+    transition: .5s;
+}
+.hover-scale:hover {
+    transform: scale(1.1);
+   cursor: pointer;
+}
+
+
+/* ==============icon-hover design==================== */
+.icon-hover {
+    transition: .5s;
+}
+
+.icon-hover:hover {
+    opacity: .7;
+}
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+
+/* ====================== media query and responsive ================= */
+
+@media screen and (min-width:560px) {
+    .block-table-item {
+        display: none;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .hover-scale{
+        transition: .5s;
+    }
+    .hover-scale:hover {
+        transform: scale(.9);
+       
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:560px) {
+
+    #table-hidden {
+        display: none;
+    }
+    .block-table-item ol li ul {
+        list-style-type: none;
+    }
+    .block-table-item {
+        display: block;
+    }
+
+}

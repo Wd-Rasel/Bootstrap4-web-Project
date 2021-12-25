@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/r-project-brands.svg">
+    <title>Bootstrap4 Design</title>
+    
+    <!--================== font awesome cdn link================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--========================== bootstrap Css cdn link=================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+   <div class="container bg-light">    
+            <header id="home" class=" nav-part">  
+                <div>
+                    <nav class="navbar navbar-expand-sm bg-primary navbar-dark"> 
+                        <a href="#" class="navber-brand p-1">
+                            <i class="fab fa-r-project fa-3x text-warning"></i> 
+                        </a>    
+                        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+    
+                          <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="font-weight-bold active nav-link underline" href="#">Home</a></li>
+                                <li class="nav-item"><a class="font-weight-bold  nav-link underline" href="#service">Service</a></li>
+                                <li class="nav-item"><a class="font-weight-bold nav-link underline" href="#about">About Me</a></li>
+                                <li class="nav-item"><a class="font-weight-bold nav-link underline" href="#gellary">Gellary</a></li>
+                                <li class="nav-item"><a class="font-weight-bold nav-link underline" href="#blog">Blog</a></li>
+                            </ul>
+                           </div>                       
+                    </nav>
+                </div>
+
+      <!-- ===================================slide-img===================================== -->
+
+                    <div class="slide-imgs bg-secondary">
+
+                        <div id="demo" class="carousel slide" data-ride="carousel" data-intervel="4000">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">                          
+                            <div class="carousel-item active text-center">                              
+                                <img src="image/bg-slide-2.jpg" class="img-fluid bg-slide-img" alt="Nuture-imgs">
+                                <div class="carousel-caption pb-4">
+                                    <h2 class="text-light font-weight-bold">Hello World... I Am Here...!</h2>                            
+                                </div> 
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="image/bg-slide.jpg" class="img-fluid bg-slide-img" alt="Nuture-imgs">
+                                <div class="carousel-caption pb-4">
+                                    <h2  class="text-light font-weight-bold">Hello World... I Am Here...!</h2>                               
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="image/bg-slide-3.jpg" class="img-fluid bg-slide-img" alt="Nuture-imgs">
+                                <div class="carousel-caption pb-4">
+                                    <h2  class="text-light font-weight-bold">Hello World... I Am Here...!</h2>                                
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        
+                        </div>
+                    </div>
+
+                            
+            </header>
+               
+             <!--==================================== Main part Section part here===================================== -->
+
+                
+                        <!--============================== Service Section part here============================ -->
+                <main>
+                    <div id="service" class="service-section  text-secondary border p-2 my-2">
+                        <div class="title py-2">
+                            <h3 class="text-center font-weight-bolder text-uppercase">Service Section</h3>
+                        </div>
+                        <div class="row text-center p-2 ">
+                            <div class="col-md-6 col-lg-3  ">
+                                <div class="service-icon border rounded bg-warning p-3 hover-scale">
+                                    <i class="fa-2x bg-light p-4 rounded-circle m-2 fas fa-hands-helping text-primary"></i>
+                                <h5 class="text-uppercase ">Hello</h5>
+                                
+                                <p class="small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam odio animi facere velit aspernatur accusantium ducimus porro magnam dicta.</p>
+                                </div>
+                            </div>
+                            <div class=" col-md-6 col-lg-3 ">
+                                <div class="service-icon  border rounded bg-warning p-3 hover-scale">
+                                    <i class="fa-2x bg-light p-4 rounded-circle m-2 fas fa-people-carry text-primary"></i>
+                                <h5 class="text-uppercase">Any Question</h5>
+                                
+                                <p class="small"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam odio animi facere velit aspernatur accusantium ducimus porro magnam dicta.</p>
+                                </div>
+                            </div>
+                            <div class=" col-md-6 col-lg-3 ">
+                                <div class="service-icon  border rounded bg-warning p-3 hover-scale">
+                                    <i class="fa-2x bg-light p-4 rounded-circle m-2 fas fa-medkit text-primary"></i>
+                                <h5 class="text-uppercase"> Some Works</h5>
+                                
+                                <p class="small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam odio animi facere velit aspernatur accusantium ducimus porro magnam dicta.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 ">
+                               <div class="service-icon  border rounded bg-warning p-3 hover-scale">
+                                <i class="fa-2x bg-light p-4 rounded-circle m-2 fas fa-hand-holding-medical text-primary"></i>
+                                <h5 class="text-uppercase"> Something New</h5>
+                            
+                                <p class="small"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam odio animi facere velit aspernatur accusantium ducimus porro magnam dicta.</p>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div id="table-hidden" class="table-part mt-2 text-center">
+                            <table class="table table-hover table-bordered table-primary table-striped">
+                                <thead class="thead-dark ">
+                                    <tr>
+                                    <th>DESING</th>
+                                    <th>DEVELOPMENT</th>
+                                    <th>MARKTING</th>
+                                    <th>SEO</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <td>Web Side for You</td>
+                                    <td>Web Side for You</td>
+                                    <td>Web Side for You</td>
+                                    <td>Web Side for You</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Side for Company</td>
+                                        <td>Web Side for Company</td>
+                                        <td>Web Side for Company</td>
+                                        <td>Web Side for Company</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Side for School</td>
+                                        <td>Web Side for School</td>
+                                        <td>Web Side for School</td>
+                                        <td>Web Side for School</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Side for E-Commarce</td>
+                                        <td>Web Side for E-Commarce</td>
+                                        <td>Web Side for E-Commarce</td>
+                                        <td>Web Side for E-Commarce</td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- ================================== block-table-item ======================= -->
+                        <div class="block-table-item ">
+                            <ol class="text-center">
+                                <li class="bg-primary text-light p-2 my-2">DESING 
+                                    <ul class="bg-dark">
+                                        <li class=" border">Web Side for You</li>
+                                        <li class=" border"> Web Side for Company</li>
+                                        <li class=" border"> Web Side for School</li>
+                                        <li class=" border">Web Side for E-Commarce</li>
+                                    </ul>
+                                </li>
+                                <li class="bg-primary text-light p-2 my-2">DEVELOPMENT
+                                    <ul class="bg-dark">
+                                        <li class=" border">Web Side for You</li>
+                                        <li class=" border"> Web Side for Company</li>
+                                        <li class=" border"> Web Side for School</li>
+                                        <li class=" border">Web Side for E-Commarce</li>
+                                    </ul>
+                                </li>
+                                <li class="bg-primary text-light p-2 my-2">MARKTING
+                                    <ul class="bg-dark">
+                                        <li class=" border">Web Side for You</li>
+                                        <li class=" border"> Web Side for Company</li>
+                                        <li class=" border"> Web Side for School</li>
+                                        <li class=" border">Web Side for E-Commarce</li>
+                                    </ul>
+                                </li>
+                                <li class="bg-primary text-light p-2 my-2">SEO
+                                    <ul class="bg-dark">
+                                        <li class=" border">Web Side for You</li>
+                                        <li class=" border"> Web Side for Company</li>
+                                        <li class=" border"> Web Side for School</li>
+                                        <li class=" border">Web Side for E-Commarce</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!--==================================== About Section part here===================================== -->
+                        
+                    <div id="about" class="about-section border p-2 my-2">
+                        <div class="jumbotron pt-4">
+                            <div class="title py-2">
+                                <h3 class="text-center text-info font-weight-bolder text-uppercase">About Section</h3>
+                            </div>
+                                <div class="row">
+                                    <div class="col-lg-4 text-center">
+                                        <img src="image/rasel.jpg" class="img-fluid rounded-circle" alt="image">
+                                    </div>
+                                    <div class="col-lg-8 mt-5">
+                                        <div>
+                                            <p class=" text-muted text-justify mb-0"> ipsum dolor sit amet consectetur adipisicing elit. Quae ullam magni a modi dolor odio. Atque totam iusto explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!  atque corporis temporibus eius nostrum dignissimos aliquam praesentium delectu Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        <div class="mb-3 text-right mr-3">
+                                            <a href="#more-text" data-toggle="collapse">Leran more...</a>
+                                            <p id="more-text" class="collapse text-justify text-muted">
+                                             ipsum  dolor sit, amet consectetur adipisicing elit. Molestias voluptas necessitatibus nam est error velit.  
+                                            Consequuntur, enim nihil quia facere minima eveniet debitis, molestias nulla,Numquam magni recusandae dolores itaque pariatur dolore et, fuga repudiandae, distinctio corrupti nobis possimus atque sint officiis. Minima accusantium quae perferendis ipsam ipsum sequi maiores tempora adipisci veniam! Non saepe esse commodi!
+                                            </p>
+                                        </div>
+
+                                        </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-primary mb-3">CV Download</button>
+                                            </div>
+                                            <div class="alert alert-warning" >
+                                                <p class="text-capitalize"> Hey Have you visited my Youtube Chalane?
+                                                    <a   href="#"> Visit Here...!</a> 
+                                                    <button class="close" data-dismiss="alert">&times;</button>
+                                                </p>                                               
+                                            </div>
+                                             <div class="alert alert-primary">
+                                                <p class="text-capitalize"> Hey Have you visited my Facebook Group?
+                                                    <a href="#"> Visit Here...!</a> 
+                                                    <button class="close" data-dismiss="alert">&times;</button>
+                                                </p>                                               
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <!-- ================================ Skill Section here =========================== -->
+
+
+                        <div class=" p-2">
+                            <div class="section-title">
+                                <h3 class="text-center text-info font-weight-bolder text-uppercase"> My Skills </h3>
+                              </div>     
+                           <div class="row">
+                               <div class="col-md-6">
+
+                               </div>
+                               <div class="col-md-6 ">
+                                <div class="skill-section p-1">       
+                                    <table>
+                                        <tr>
+                                        <td class="text-danger font-weight-bolder">HTML5</td>
+                                        <td>
+                                            <span class="stars text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star "></i>
+                                            <i class="fas fa-star-half "></i>
+                                            <i class="far fa-star "></i>
+                                            <i class="far fa-star "></i>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-danger font-weight-bolder">CSS3</td>
+                                        <td>
+                                            <span class="stars text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-danger font-weight-bolder">BS4</td>
+                                        
+                                        <td>
+                                            <span class="stars text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-danger font-weight-bolder">JAVASCTIPT</td>
+                                        <td>
+                                            <span class="stars text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-danger font-weight-bolder">NODE.JS</td>
+                                        <td>
+                                            <span class="stars text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                               </div>
+                           </div>
+
+                        <div class="other-section my-3">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item bg-success"><a class="nav-link active text-warning font-weight-bold" href="#edu" data-toggle="tab">Educations</a></li>
+                                <li class="nav-item bg-primary"><a class="nav-link text-warning  font-weight-bold" href="#skill" data-toggle="tab">Skills</a></li>
+                                <li class="nav-item bg-secondary"><a class="nav-link text-warning  font-weight-bold" href="#hobby" data-toggle="tab">Hobbys</a></li>
+                            </ul>
+                            <div class="tab-content mt-2">
+                                <div id="edu" class="tab-pane active">
+                                    <p class="text-muted text-justify"><span class="text-danger font-weight-bold">Educations:</span> Contant tab here ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.Contant tab here ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.</p>
+                                </div>
+                                <div id="skill" class="tab-pane fade">
+                                    <p class="text-muted text-justify"> <span class="text-danger font-weight-bold">Skills:</span> Contant tab here  ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.Contant tab here ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.</p>
+                                </div>
+                                <div id="hobby" class="tab-pane fade">
+                                    <p class="text-muted text-justify"> <span class="text-danger font-weight-bold">Hobbys:</span> Contant tab here i ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.Contant tab here ipsum dolor sit, amet consectetur adipisicing elit. Illo cumque a recusandae saepe. Quasi facilis, quae sint voluptatem dolor atque consequuntur laboriosam deserunt sunt fuga molestias sit voluptate voluptas eveniet a eligendi non velit quas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--============================ Gellary  Section part here ============================ -->
+
+                    <div id="gellary" class="gellary-part border p-3 my-2">
+                        <div class="title py-3 mb-3">
+                            <h3 class="text-center text-secondary font-weight-bolder text-uppercase">Gellary</h3>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-6 col-lg-3 d-block d-md-flex mb-2 m-lg-0">
+                                <div class="card text-center bg-light hover-scale"> 
+                                    <img class="img-card-top" src="image/html5.png" alt="img">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary">Html5</h4>
+                                        <p class="card-text text-center text-muted"> ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita soluta eos, nemo officia deserunt?Lorem ipsum dolor sit amet consectetur?</p>
+                                        <a class="card-link stretched-link"  target="_blank" href="https://getbootstrap.com">Visit Here Playlists..!</a>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="col-md-6 col-lg-3 d-block d-md-flex mb-2 m-lg-0">
+                                <div class="card text-center bg-light hover-scale" >
+                                    <img class="img-card-top" src="image/Css-3.jpg" alt="img">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary">Css3</h4>
+                                        <p class="card-text text-center text-muted"> ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita soluta eos, nemo officia deserunt?Lorem ipsum dolor sit amet consectetur?</p>
+                                        <a class="card-link stretched-link"  target="_blank" href="https://getbootstrap.com">Visit Here Playlists..!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 d-block d-md-flex mb-2 m-lg-0">
+                                <div class="card text-center bg-light hover-scale">
+                                    <img class="img-card-top" src="image/Bs4.jpg" alt="img">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary">Bootstrap4</h4>
+                                        <p class="card-text text-center text-muted"> ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita soluta eos, nemo officia deserunt?Lorem ipsum dolor sit amet consectetur?</p>
+                                        <a class="card-link stretched-link"  target="_blank" href="https://getbootstrap.com">Visit Here Playlists..!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 d-block d-md-flex mb-2 m-lg-0">
+                                <div class="card text-center bg-light hover-scale">
+                                    <img class="img-card-top" src="image/reall-js.jpg" alt="img">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary">JavaScript</h4>
+                                        <p class="card-text text-center text-muted"> ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita soluta eos, nemo officia deserunt?Lorem ipsum dolor sit amet consectetur?</p>
+                                        <a class="card-link stretched-link"  target="_blank" href="https://getbootstrap.com">Visit Here Playlists..!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                <!-- ================i-con gallery here============ -->
+                        <div class="design-part bg-light pt-3">
+                            <div class="row text-center p-1">
+                                <div class="col-md-6 col-lg-3">
+                                   <div class="hover-scale border rounded p-3">
+                                    <i class="fab fa-apple fa-2x  bg-light text-primary"></i>
+                                    <p class="text-capitalize small "> ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem voluptates ratione quia explicabo expedita, perspiciatis reiciendis nesciunt ipsum, nisi sint omnis nostrum </p>
+                                   </div>
+                                </div>
+                                 <div class="col-md-6 col-lg-3 ">
+                                    <div class="hover-scale border rounded p-3">
+                                       <i class="fab fa-app-store-ios fa-2x  bg-light text-primary"></i>
+                                        <p class="text-capitalize small text-muted"> ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem voluptates ratione quia explicabo expedita, perspiciatis reiciendis nesciunt ipsum, nisi sint omnis nostrum </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 col-lg-3 ">
+                                     <div class="hover-scale border rounded p-3">
+                                        <i class="fab fa-android fa-2x  bg-light text-primary"></i>
+                                        <p class="text-capitalize small"> ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem voluptates ratione quia explicabo expedita, perspiciatis reiciendis nesciunt ipsum, nisi sint omnis nostrum </p>
+                                     </div>
+                                   </div>
+                                   <div class="col-md-6 col-lg-3 ">
+                                        <div class="hover-scale border rounded p-3">
+                                            <i class="fab fa-algolia fa-2x  bg-light text-primary"></i>
+                                        <p class="text-capitalize small text-muted">ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem voluptates ratione quia explicabo expedita, perspiciatis reiciendis nesciunt ipsum, nisi sint omnis Nostrum
+                                        </p>
+                                        </div>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--================================== Blog part here =============================== -->
+
+                    <div id="blog" class="media-section border p-2 my-2">
+                        <div class="title py-2 mb-2">
+                            <h3 class="text-center text-info font-weight-bolder text-uppercase">Blog</h3>
+                        </div>
+                        <div class=" row media p-2 border mt-3">
+                            <div class="col-lg-4 mt-4 p-2 text-center">
+                                <img class="rounded " src="image/blog-1.jpg" alt="blog-img">
+                            </div>
+                            <div class="col-lg-8 media-body">
+                                <h5 class="text-center text-danger font-weight-bolder text-uppercase">Dolar and Euro</h5>
+                                <p class="text-muted text-justify">ipsum, dolor sit amet consectetur adipisicing elit. Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsum quidem.Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsum quidem.</p>
+                            </div>
+                        </div>
+                        <div class="row media p-2 border  mt-3">          
+                            <div class="col-lg-8 media-body">
+                                <h5 class="text-center  text-danger font-weight-bolder text-uppercase">Newspaper</h5>
+                                <p class="text-muted text-justify">ipsum, dolor sit amet consectetur adipisicing elit. Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsum quidem.Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsum quidem.</p>
+                            </div>
+                            <div class="col-lg-4 p-2 mt-4 text-center">
+                                <img class="rounded" src="image/blog-2.jpg" alt="blog-img">
+                            </div>
+                        </div>
+                        <div class="row media p-2 border  mt-3">
+                            <div class="col-lg-4 text-center align-self-center p-2">
+                                <img class="rounded  align-self-center" src="image/blog-3.jpg" alt="blog-img">
+                            </div>
+                            <div class="col-lg-8 media-body">
+                                <h5 class="text-center text-danger font-weight-bolder text-uppercase">Nuture</h5>
+                                <p class="text-muted text-justify"> ipsum, dolor sit amet consectetur adipisicing elit. Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsumm Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis corporis voluptatum eligendi vitae tenetur totam minima vero pariatur tempore dolore ab sapiente hic porro asperiores in commodi, quibusdam neque. Libero iure quibusdam facere cupiditate placeat, harum ex, a quia sequi, dolorum enim suscipit sint delectus. Illum praesentium enim nesciunt eum atque aspernatur at, corporis doloremque, placeat natus tempore pariatur. Numquam, minus? Fuga eos aliquam ratione sequi dolorem? Minima voluptatibus delectus cum ipsum aut assumenda, provident, est tenetur quisquam possimus asperiores doloribus a! Laborum consequatur neque harum illum natus culpa, iure reiciendis quae doloribus delectus non fuga repellendus provident asperiores maiores!Illum praesentium enim nesciunt eum atque aspernatur at, corporis doloremque, placeat natus tempore pariatur. Numquam, minus? Fuga eos aliquam ratione sequi dolorem? Minima voluptatibus delectus cum ipsum aut assumenda, provident, est tenetur quisquam possimus asperiores doloribus a! Laborum consequatur neque harum illum natus culpa, iure reiciendis quae doloribus delectus non fuga repellendus provident asperiores maiores!Similique exercitationem sint vero hic perspiciatis ullam maiores error aliquam veritatis, accusamus assumenda modi ut enim repellendus quasi temporibus dicta nihil voluptas voluptatem fuga. Aut, obcaecati adipisci! Qui autem laboriosam quo et quibusdam dolores dolorum corporis, distinctio minus hic iure, ipsum quidem. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--============================ Customar review Section part here ============================ -->
+
+                    <div class="customer-section border p-2 my-2">
+                        <div class="title py-2 mb-2">
+                            <h3 class="text-center text-info font-weight-bolder text-uppercase">Customar Review</h3>
+                        </div>
+                        <div class="client-list my-3">
+                            <ul class="list-group text-center">
+                                <li class="list-group-item bg-dark text-white">Rafsan Khan Socail Worker Group</li>
+                                <li class="list-group-item bg-primary text-white">Shakib Khan Socail Worker Group</li>
+                                <li class="list-group-item  bg-info text-white">Sumon Khan Socail Worker Group</li>
+                                <li class="list-group-item bg-secondary text-white">Rabeya Khan Socail Worker Group</li>
+                                <li class="list-group-item bg-success text-white">Rufikul Khan Socail Worker Group</li>
+                            </ul>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 ">
+                                <div class="p-3 border rounded">
+                                    <i class="fas fa-user-circle fa-4x text-primary "></i>
+                                <blockquote class="blockquote">
+                                     ipsum dolor sit amet consectetur adipisicing elit. Est unde quos quaerat repellat natus tempore.In this web page learn <abbr title="Bootstrap4">bs4</abbr>.
+                                    <footer class="blockquote-footer">
+                                        Rasel Ali <cite> Freelancer</cite>
+                                    </footer>
+                                </blockquote>
+                                </div>                        
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="p-3 border rounded">
+                                <i class="fas fa-user-circle fa-4x  text-primary "></i>
+                                <blockquote class="blockquote">
+                                     ipsum dolor sit amet consectetur adipisicing elit. Est unde quos quaerat repellat natus tempore.In this web page learn <abbr title="Bootstrap4">bs4</abbr>.
+                                    <footer class="blockquote-footer">
+                                        Rasel Ali <cite> Freelancer</cite>
+                                    </footer>
+                                </blockquote>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                               <div class="p-3 border rounded">
+                                <i class="fas fa-user-circle fa-4x  text-primary "></i>
+                                <blockquote class="blockquote">
+                                     ipsum dolor sit amet consectetur adipisicing elit. Est unde quos quaerat repellat natus tempore.In this web page learn <abbr title="Bootstrap4">bs4</abbr>.
+                                    <footer class="blockquote-footer">
+                                        Rasel Ali <cite> Freelancer</cite>
+                                    </footer>
+                                </blockquote>
+                               </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--================================ Contact from part here===================================== -->
+
+
+                     <div class="from-contact border p-2 my-2 bg-info">
+                        <div class="title py-2 mb-2">
+                            <h3 class="text-center text-white font-weight-bolder text-uppercase"> Contact Me</h3>
+                        </div>
+                            <form action="main.php" class="w-50 m-auto">
+                                <div class="form-group text-white">
+                                    <label for="name" > UserName:</label>
+                                    <input id="name" type="text" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group text-white">
+                                    <label for="email" >Email:</label>
+                                    <input id="email" type="email" name="email" class="form-control"  required>
+                                </div>
+                                <div class="form-group text-white">
+                                    <label for="subject" >Subject:</label>
+                                    <input id="subject" type="text" name="subject" class="form-control" required>
+                                </div>
+                                <div class="form-group text-white">
+                                    <label for="message" >Message:</label>
+                                    <textarea id="message" style="resize: none; " name="message" class="form-control" cols="30" rows="7" placeholder="Drope a message here.."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary " value="Submit">
+                                    <input type="reset" class="btn btn-success" value="Reset">
+                                </div>
+                               
+                            </form>
+                     </div>
+
+                </main>
+
+                    <!--================================ Footer Section part here===================================== -->
+
+        <footer>
+                <div class=" pb-1 ">
+                    <div class="text-right p-1">
+                        <a href="#home" class="btn btn-danger "> <i class="fas fa-arrow-up"></i></a>
+                    </div>
+                        <div class="pagination-row">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item "><a href="#" class="page-link">Prev</a></li>
+                                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                                <li class="page-item"><a href="#" class="page-link">4</a></li>
+                                <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                            </ul>
+                        </div> 
+                </div>
+
+                <!--=======================copy-right-part here========================= -->
+
+                <div class="copy-right-section bg-dark">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-center p-2 ">
+                                <h6 class="text-muted font-wight-bolder mt-1">
+                                    Copyright &copy; Reserve of RaSeL Ali
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center p-2" >
+                               <span>
+                                   <a href="https://facebook.com" class="text-decoration-none" target="_blank">
+                                    <i class="fab fa-facebook fa-2x text-light mr-3 icon-hover"></i>
+                                   </a>
+                                   <a href="https://youtube.com" class="text-decoration-none" target="_blank"> 
+                                    <i class="fab fa-youtube fa-2x text-danger mr-3 icon-hover"></i>
+                                   </a>
+                                   <a href="https://linkedin.com" class="text-decoration-none" target="_blank">
+                                    <i class="fab fa-linkedin fa-2x text-primary mr-3 icon-hover"></i>
+                                   </a>
+                                  <a href="https://instagram.com" class="text-decoration-none" target="_blank">
+                                    <i class="fab fa-instagram fa-2x text-warning icon-hover"></i>
+                                  </a>
+                               </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+   </div>
+
+
+    <!--============================== jQuery link and popper js link also================================== -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
